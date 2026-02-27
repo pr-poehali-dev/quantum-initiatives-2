@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 
 export const Hero3DWebGL = () => {
-  const titleWords = "Агенты ИИ".split(" ")
-  const subtitle = "Автоматизируем бизнес-процессы с помощью искусственного интеллекта."
+  const titleWords = "ИИ Агенты для вашего бизнеса".split(" ")
+  const subtitle = "Берём на себя рутину — продажи, документы, поддержку. Вы занимаетесь развитием, агент делает остальное."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays] = useState(() => titleWords.map(() => Math.random() * 0.07))
