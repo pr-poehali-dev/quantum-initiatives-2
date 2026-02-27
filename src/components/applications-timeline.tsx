@@ -80,7 +80,7 @@ export function ApplicationsTimeline() {
   ]
 
   return (
-    <section id="applications" className="py-20 bg-black">
+    <section id="applications" className="py-20 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Где работают наши агенты</h2>

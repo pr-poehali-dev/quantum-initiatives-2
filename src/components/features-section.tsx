@@ -42,7 +42,7 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section className="py-24 px-6 bg-transparent">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Что умеют наши ИИ агенты</h2>

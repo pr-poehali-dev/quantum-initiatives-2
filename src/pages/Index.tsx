@@ -19,25 +19,17 @@ export default function Index() {
         <Navbar />
         <main>
           <Hero3D />
-          <div className="bg-black/60 backdrop-blur-sm">
-            <FeaturesSection />
-          </div>
-          <section id="technology" className="bg-black/50 backdrop-blur-sm">
+          <FeaturesSection />
+          <section id="technology">
             <TechnologySection />
           </section>
-          <div className="bg-black/40 backdrop-blur-sm">
-            <ApplicationsTimeline />
-          </div>
-          <div className="bg-black/60 backdrop-blur-sm">
-            <AboutSection />
-          </div>
-          <section id="safety" className="bg-black/50 backdrop-blur-sm">
+          <ApplicationsTimeline />
+          <AboutSection />
+          <section id="safety">
             <SafetySection />
           </section>
-          <div className="bg-black/60 backdrop-blur-sm">
-            <TestimonialsSection />
-          </div>
-          <section id="faq" className="bg-black/50 backdrop-blur-sm">
+          <TestimonialsSection />
+          <section id="faq">
             <FAQSection />
           </section>
           <CTASection />
