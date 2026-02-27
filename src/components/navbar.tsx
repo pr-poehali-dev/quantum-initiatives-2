@@ -19,16 +19,13 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a
-                href="#technology"
-                className="font-geist text-white hover:text-red-500 transition-colors duration-200"
-              >
-                Технологии
+              <a href="#features" className="font-geist text-white/70 hover:text-blue-400 transition-colors duration-200">
+                Возможности
               </a>
-              <a href="#safety" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
-                Безопасность
+              <a href="#cases" className="font-geist text-white/70 hover:text-blue-400 transition-colors duration-200">
+                Кейсы
               </a>
-              <a href="#faq" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
+              <a href="#faq" className="font-geist text-white/70 hover:text-blue-400 transition-colors duration-200">
                 Вопросы
               </a>
             </div>
@@ -36,14 +33,14 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">В лист ожидания</Button>
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white font-geist border-0">Получить аудит</Button>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-red-500 transition-colors duration-200"
+              className="text-white hover:text-blue-400 transition-colors duration-200"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -53,31 +50,31 @@ export function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-black/98 border-t border-red-500/20">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 border-t border-blue-500/20">
               <a
-                href="#technology"
-                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                href="#features"
+                className="block px-3 py-2 font-geist text-white/70 hover:text-blue-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Технологии
+                Возможности
               </a>
               <a
-                href="#safety"
-                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                href="#cases"
+                className="block px-3 py-2 font-geist text-white/70 hover:text-blue-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Безопасность
+                Кейсы
               </a>
               <a
                 href="#faq"
-                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                className="block px-3 py-2 font-geist text-white/70 hover:text-blue-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Вопросы
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
-                  В лист ожидания
+                <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-geist border-0">
+                  Получить аудит
                 </Button>
               </div>
             </div>
