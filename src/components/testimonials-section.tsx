@@ -5,21 +5,21 @@ const testimonials = [
   {
     name: "Алексей Петров",
     role: "Генеральный директор, TechRetail Group",
-    avatar: "/professional-woman-scientist.png",
+    avatar: "https://cdn.poehali.dev/projects/d2e3c9f7-25db-46bd-8e12-814f5f449c31/files/8f3f3af8-79fb-469e-acca-a9f75af14322.jpg",
     content:
       "ИИ агент взял на себя обработку 80% входящих заявок. Команда менеджеров теперь занимается только горячими сделками — выручка выросла на 40%.",
   },
   {
     name: "Мария Соколова",
     role: "Операционный директор, LogisPro",
-    avatar: "/cybersecurity-expert-man.jpg",
+    avatar: "https://cdn.poehali.dev/projects/d2e3c9f7-25db-46bd-8e12-814f5f449c31/files/41b2f7cc-cf81-475b-bda2-ff9465dba8bc.jpg",
     content:
       "Внедрили агента для документооборота. То, что раньше занимало три дня, теперь происходит за час. Экономия на операционных расходах — более 2 млн рублей в месяц.",
   },
   {
     name: "Дмитрий Захаров",
     role: "Директор по маркетингу, Nova Commerce",
-    avatar: "/asian-woman-tech-developer.jpg",
+    avatar: "https://cdn.poehali.dev/projects/d2e3c9f7-25db-46bd-8e12-814f5f449c31/files/8c70957b-9487-4302-bd56-302744f31de0.jpg",
     content:
       "Агент самостоятельно ведёт рассылки, анализирует отклик и корректирует тексты. Конверсия писем выросла вдвое без участия нашей команды.",
   },
