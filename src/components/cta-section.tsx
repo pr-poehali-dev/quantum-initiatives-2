@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function CTASection() {
   return (
-    <section className="py-24 px-6 bg-gradient-to-br from-[#020d1f] via-[#041428] to-[#020d1f] border-t border-blue-900/40">
+    <section className="py-24 px-6 bg-blue-950/20 backdrop-blur-sm border-t border-blue-500/20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="slide-up">
           <h2 className="text-5xl font-bold text-white mb-6 font-sans text-balance">Готовы автоматизировать свой бизнес?</h2>
