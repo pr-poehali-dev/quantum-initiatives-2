@@ -9,29 +9,41 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { NetworkBackground } from "@/components/network-background"
 
 export default function Index() {
   return (
-    <div className="dark">
-      <Navbar />
-      <main>
-        <Hero3D />
-        <FeaturesSection />
-        <section id="technology">
-          <TechnologySection />
-        </section>
-        <ApplicationsTimeline />
-        <AboutSection />
-        <section id="safety">
-          <SafetySection />
-        </section>
-        <TestimonialsSection />
-        <section id="faq">
-          <FAQSection />
-        </section>
-        <CTASection />
-      </main>
-      <Footer />
+    <div className="dark relative">
+      <NetworkBackground />
+      <div className="relative z-10">
+        <Navbar />
+        <main>
+          <Hero3D />
+          <div className="bg-black/60 backdrop-blur-sm">
+            <FeaturesSection />
+          </div>
+          <section id="technology" className="bg-black/50 backdrop-blur-sm">
+            <TechnologySection />
+          </section>
+          <div className="bg-black/40 backdrop-blur-sm">
+            <ApplicationsTimeline />
+          </div>
+          <div className="bg-black/60 backdrop-blur-sm">
+            <AboutSection />
+          </div>
+          <section id="safety" className="bg-black/50 backdrop-blur-sm">
+            <SafetySection />
+          </section>
+          <div className="bg-black/60 backdrop-blur-sm">
+            <TestimonialsSection />
+          </div>
+          <section id="faq" className="bg-black/50 backdrop-blur-sm">
+            <FAQSection />
+          </section>
+          <CTASection />
+        </main>
+        <Footer />
+      </div>
     </div>
   )
 }
