@@ -11,16 +11,16 @@ export function ApplicationsTimeline() {
             и передаёт горячие контакты менеджерам — круглосуточно без выходных.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Автоответы на типовые вопросы клиентов
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Квалификация и сегментация лидов
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Автоматическое создание сделок в CRM
             </div>
           </div>
@@ -36,16 +36,16 @@ export function ApplicationsTimeline() {
             формирование отчётов и уведомление сотрудников о статусах задач.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Автоматическое заполнение и пересылка документов
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Контроль дедлайнов и напоминания команде
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Ежедневная отчётность без ручного труда
             </div>
           </div>
@@ -61,16 +61,16 @@ export function ApplicationsTimeline() {
             и автоматически корректирует стратегию на основе данных.
           </p>
           <div className="space-y-3">
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Генерация постов, писем и описаний товаров
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Автоматические email и мессенджер-рассылки
             </div>
-            <div className="flex items-center gap-3 text-red-400 text-sm">
-              <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+            <div className="flex items-center gap-3 text-blue-400 text-sm">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               Анализ конверсий и A/B тестирование
             </div>
           </div>
