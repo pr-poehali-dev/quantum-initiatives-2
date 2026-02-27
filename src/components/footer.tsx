@@ -21,7 +21,7 @@ export function Footer() {
             className="flex items-center gap-2 text-white/60 hover:text-blue-400 transition-colors duration-200"
           >
             <Mail size={18} />
-            <span className="text-sm font-geist">brigaide@gmai.com</span>
+            <span className="text-sm font-geist">brigaide@yandex.ru</span>
           </a>
         </div>
 
