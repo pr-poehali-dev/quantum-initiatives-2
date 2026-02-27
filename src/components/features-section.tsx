@@ -142,7 +142,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-transparent">
+    <section id="features" className="py-24 px-6 bg-transparent">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4 font-orbitron">Что умеют наши ИИ агенты</h2>
