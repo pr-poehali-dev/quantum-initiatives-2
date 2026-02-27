@@ -24,9 +24,9 @@ export const Hero3DWebGL = () => {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#000509] to-transparent" />
       </div>
 
-      <div className="h-screen uppercase items-center w-full absolute z-[60] pointer-events-none px-10 flex justify-center flex-col">
-        <div className="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold font-orbitron">
-          <div className="flex space-x-2 lg:space-x-6 overflow-hidden text-white">
+      <div className="h-screen uppercase items-center w-full absolute z-[60] pointer-events-none px-4 sm:px-8 md:px-10 flex justify-center flex-col">
+        <div className="text-2xl sm:text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold font-orbitron">
+          <div className="flex flex-wrap justify-center gap-x-2 sm:gap-x-3 lg:gap-x-6 overflow-hidden text-white">
             {titleWords.map((word, index) => (
               <div
                 key={index}
@@ -41,7 +41,7 @@ export const Hero3DWebGL = () => {
             ))}
           </div>
         </div>
-        <div className="text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden text-white font-bold max-w-4xl mx-auto text-center px-4">
+        <div className="text-sm sm:text-base md:text-xl xl:text-2xl 2xl:text-3xl mt-3 overflow-hidden text-white font-bold max-w-4xl mx-auto text-center px-2 sm:px-4">
           <div
             className={subtitleVisible ? "fade-in-subtitle" : ""}
             style={{

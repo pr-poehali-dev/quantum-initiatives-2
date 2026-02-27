@@ -40,7 +40,7 @@ export function CallModal({ open, onClose }: CallModalProps) {
 
       {/* Modal */}
       <div
-        className="relative w-full max-w-md rounded-2xl border border-blue-500/30 bg-[#020d1f]/95 backdrop-blur-md p-8 shadow-2xl"
+        className="relative w-full max-w-md rounded-2xl border border-blue-500/30 bg-[#020d1f]/95 backdrop-blur-md p-5 sm:p-8 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
         style={{ boxShadow: "0 0 60px rgba(59,130,246,0.15)" }}
       >

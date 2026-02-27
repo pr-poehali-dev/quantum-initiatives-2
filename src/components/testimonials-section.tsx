@@ -27,16 +27,16 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section id="cases" className="py-24 px-6 bg-transparent">
+    <section id="cases" className="py-16 sm:py-24 px-4 sm:px-6 bg-transparent">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят наши клиенты</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <div className="text-center mb-10 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят наши клиенты</h2>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Реальные результаты компаний, которые уже автоматизировали бизнес с нашими агентами
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="glow-border slide-up" style={{ animationDelay: `${index * 0.15}s` }}>
               <CardContent className="p-6">

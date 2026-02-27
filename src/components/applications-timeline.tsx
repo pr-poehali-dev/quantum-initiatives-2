@@ -80,11 +80,11 @@ export function ApplicationsTimeline() {
   ]
 
   return (
-    <section id="applications" className="py-20 bg-transparent">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
-        <div className="text-center mb-16">
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Где работают наши агенты</h2>
-          <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+    <section id="applications" className="py-16 sm:py-20 bg-transparent">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
+        <div className="text-center mb-10 sm:mb-16">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6">Где работают наши агенты</h2>
+          <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
             ИИ агенты встраиваются в ключевые направления бизнеса и берут на себя
             задачи, которые раньше требовали целых команд.
           </p>

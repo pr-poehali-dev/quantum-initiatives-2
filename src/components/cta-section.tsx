@@ -2,25 +2,25 @@ import { Button } from "@/components/ui/button"
 
 export function CTASection() {
   return (
-    <section className="py-24 px-6 bg-blue-950/20 backdrop-blur-sm border-t border-blue-500/20">
+    <section className="py-16 sm:py-24 px-4 sm:px-6 bg-blue-950/20 backdrop-blur-sm border-t border-blue-500/20">
       <div className="max-w-4xl mx-auto text-center">
         <div className="slide-up">
-          <h2 className="text-5xl font-bold text-white mb-6 font-sans text-balance">Готовы автоматизировать свой бизнес?</h2>
-          <p className="text-xl text-blue-100/80 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 font-sans text-balance">Готовы автоматизировать свой бизнес?</h2>
+          <p className="text-base sm:text-lg md:text-xl text-blue-100/80 mb-8 sm:mb-10 leading-relaxed max-w-2xl mx-auto">
             Проведём бесплатный аудит ваших процессов и покажем, какие задачи можно автоматизировать
             уже в первый месяц — с измеримым результатом.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 pulse-button text-lg px-8 py-4"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 pulse-button text-base sm:text-lg px-6 sm:px-8"
             >
               Получить бесплатный аудит
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4 bg-transparent"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base sm:text-lg px-6 sm:px-8 bg-transparent"
             >
               Посмотреть кейсы
             </Button>

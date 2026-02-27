@@ -35,11 +35,11 @@ export function FAQSection() {
   ]
 
   return (
-    <section className="py-24 bg-transparent">
+    <section className="py-16 sm:py-24 bg-transparent">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Частые вопросы</h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
+        <div className="text-center mb-10 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 font-orbitron">Частые вопросы</h2>
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
             Отвечаем на главные вопросы о внедрении ИИ агентов, безопасности и результатах для бизнеса.
           </p>
         </div>
@@ -47,11 +47,11 @@ export function FAQSection() {
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border-blue-500/20 mb-4">
-                <AccordionTrigger className="text-left text-lg font-semibold text-white hover:text-blue-400 font-orbitron px-6 py-4">
+              <AccordionItem key={index} value={`item-${index}`} className="border-blue-500/20 mb-3 sm:mb-4">
+                <AccordionTrigger className="text-left text-base sm:text-lg font-semibold text-white hover:text-blue-400 font-orbitron px-4 sm:px-6 py-3 sm:py-4">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-300 leading-relaxed px-6 pb-4 font-space-mono">
+                <AccordionContent className="text-gray-300 leading-relaxed px-4 sm:px-6 pb-3 sm:pb-4 font-space-mono text-sm sm:text-base">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
