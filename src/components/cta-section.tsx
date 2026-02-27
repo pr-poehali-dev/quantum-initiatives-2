@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button"
 
 export function CTASection() {
   return (
-    <section className="py-24 px-6 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10">
+    <section className="py-24 px-6 bg-gradient-to-br from-[#020d1f] via-[#041428] to-[#020d1f] border-t border-blue-900/40">
       <div className="max-w-4xl mx-auto text-center">
         <div className="slide-up">
-          <h2 className="text-5xl font-bold text-foreground mb-6 font-sans text-balance">Готовы автоматизировать свой бизнес?</h2>
-          <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
+          <h2 className="text-5xl font-bold text-white mb-6 font-sans text-balance">Готовы автоматизировать свой бизнес?</h2>
+          <p className="text-xl text-blue-100/80 mb-10 leading-relaxed max-w-2xl mx-auto">
             Проведём бесплатный аудит ваших процессов и покажем, какие задачи можно автоматизировать
             уже в первый месяц — с измеримым результатом.
           </p>
